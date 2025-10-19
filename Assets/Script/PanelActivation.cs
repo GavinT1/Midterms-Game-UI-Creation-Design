@@ -56,12 +56,10 @@ public class PauseMenuManager : MonoBehaviour
         statsPanel.SetActive(!isActive);
         if (isActive)
         {
-            // Closing stats
             pausePanel.SetActive(false);
         }
         else
         {
-            // Opening stats
             pausePanel.SetActive(false);
             settingsPanel.SetActive(false);
         }
